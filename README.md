@@ -7,7 +7,6 @@ the main bit is using annotations to try (i mean try) and minimise some of the p
 
 
 
-
 ## Running The App
 
 To run the app, follow these steps.
@@ -38,6 +37,14 @@ To run the app, follow these steps.
 6. To run the app, execute the following command:
 
   ```shell
-  gulp watch
+  gulp serve
   ```
-7. Browse to [http://localhost:9000](http://localhost:9000) to see the app. You can make changes in the code found under `src` and the browser should auto-refresh itself as you save files.
+7. Browse to [http://localhost:9000](http://localhost:9000) to see the app.
+
+
+please note
+
+```shell
+gulp dev
+```
+will compile the TS using the compiler located in the tsc folder.
